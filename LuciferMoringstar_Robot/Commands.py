@@ -84,8 +84,8 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
-                    ]
+                        InlineKeyboardButton('🎖 Add me to A Group 🎖', url=f'{http://t.me/manjuwarrierv1_bot?startgroup=true}')
+                    ]('Group', url=f'{https//t.me/toxicmoviesgroup}')
                     ]
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
